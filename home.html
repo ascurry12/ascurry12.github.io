@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <title> Art + Tech Portfolio | Aniyah Curry </title>
+        <link rel = "stylesheet" href = "portfolio.css">
+        <link rel="shortcut icon" type="image/x-icon" href="logo.png"/>
+    </head>
+    <header>
+        <h1>
+            <a href="home.html">Aniyah Curry</a> <!--hyperlink-->
+        </h1>
+    </header>
+
+<div class="navbar pink">
+        <a href="home.html">home</a>
+        <a href="about.html">about</a>
+        <a href="art.html">artwork</a>
+        <a href="code.html">coding projects</a>
+        <a href="resume.html">resume</a>
+        <a href="contact.html">contact</a>
+</div>
+<br>
+
+<div class="slideshow pink">
+    <div class="images fade">
+        <img src="Covid_Allegory.jpg" style="width: 25%;">
+        <div class="text">"Isolation"</div>
+    </div>
+    <div class="images fade">
+        <img src="Genie.jpg" style="width: 28.5%;">
+        <div class="text">"Genie"</div>
+    </div>
+    <div class="images fade">
+        <img src="Rudolph.jpg" style="width: 50%;">
+        <div class="text">"Rudolph"</div>
+    </div>
+
+    <a class="prev" onclick="shiftSlide(-1)">&#10094</a>
+    <a class="next" onclick="shiftSlide(1)">&#10095</a>
+</div>
+<br>
+<div style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script src="script.js"></script>
+</html>
