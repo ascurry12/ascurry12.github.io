@@ -1,8 +1,8 @@
 @import 'https://use.typekit.net/bvk2huq.css';
 
 div.navbar {
-    font-family: "Copperplate", serif;
-    font-weight: 500;
+    font-family: "halogen";
+    font-weight: 300;
     font-style: normal;
     text-align: center;
     padding-top: 1%;
@@ -13,11 +13,11 @@ div.navbar a {
     margin-left: 70px;
     margin-right: 70px;
     text-decoration: none;
-    font-size:18px;
-    font-family: "Copperplate", serif;
+    font-size:15px;
+
 }
 .navbar a:hover {
-    color: #ffffffcc;
+    color: #ffffffcc
 }
 .pink {
     background: #e5bbc2;
@@ -36,14 +36,43 @@ h1 a {
 
 }
 
-* {box-sizing:border-box}
-
-.slideshow {
-    position: absolute;
-    width: 100%;
-    height: 75%;
+.greeting {
+    column-count: 2;
+    column-rule: 2px solid #e5bbc2;
+    column-gap: 40px;
+    height: 330px;
+    border: 2px solid #e5bbc2;
+    margin-left: 40px;
+    margin-right: 40px;
 }
-
+.greeting h1 {
+    color: black;
+    font-family: "gravesend-sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18;
+    margin-top: 10px;
+}
+.greeting img {
+    max-width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+.greeting p {
+    color: black;
+    font-family: "area-normal";
+    font-weight: 100;
+    font-size: 17px;
+    display: grid;
+    place-items: center;
+    text-align: left;
+    margin-right: 25px;
+}
+.greeting p:nth-child(0) {
+    margin-top: 30px;
+}
+/*
 .images {
     display: none;
     position: relative;
@@ -111,3 +140,4 @@ h1 a {
     from {opacity: .4;}
     to {opacity: 1;}
 }
+*/
